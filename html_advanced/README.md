@@ -1,2 +1,2 @@
-Getting started on an amazing project.
-Made by MaVeN-13TTN
+Getting started on the advanced html project.
+Made by MaVeN-13TTN.
