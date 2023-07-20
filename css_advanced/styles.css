@@ -119,3 +119,53 @@ body{
     margin-top: 10px;
     margin-bottom: 5px;
 }
+/*end of quotes section*/
+
+/*videos section*/
+.videos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.videos h1 a{
+    color: blueviolet; 
+}
+.main-vid-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+    box-sizing: content-box;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#vid-1,#vid-2,#vid-3,#vid-4{
+    box-sizing: border-box;
+    margin: 20px;
+}
+
+#rating,#n-name{
+    color: blueviolet;
+}
+#n-name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#n-name h3{
+    margin-left: 15px;
+}
+#rating{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#rating p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#rating img{
+    border-radius: 5px;
+}
+/*end of videos section*/
