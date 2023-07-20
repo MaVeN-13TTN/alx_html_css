@@ -1,0 +1,121 @@
+@font-face {
+    font-family: SourceSansPro-Regular;
+    src: url(./Font/source-sans-pro/SourceSansPro-Regular.otf);
+  }
+@font-face {
+    font-family: spincycle_ot;
+    src: url(./Font/Spin-Cycle-OT/spincycle_ot.otf);
+  }
+
+body{
+    margin: 0 auto;
+    width: auto;
+}
+  /*Header and Banner section*/
+ .header{
+    position: absolute;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+} 
+ .header .site-logo{
+    align-self: center;
+    margin-left: 150px;
+    margin-right: 650px;
+ }
+ a:link{
+    color: white;
+    text-decoration: none;
+    margin:10px;
+ }
+ .header #navigation-links{
+    flex-direction: column;
+    justify-content: space-around;
+ }
+ /*Get-Schooled*/
+ .get-schooled{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .get-schooled h1{
+    color: white;
+    font-size:90px;
+    margin-top:150px;
+    margin-bottom: 10px;
+ }
+ .get-schooled p{
+    color: white;
+    margin-top: 10px;
+ }
+ .btn{
+    height: 1cm;
+    border-radius: 10px;
+    border-color: blueviolet;
+    background-color: blueviolet;
+    color: white;
+ }
+ .main-section{
+    width: auto;
+    background-image: url("../images/smile-background.png");
+    background-repeat: no-repeat;
+    object-fit: fill;
+}
+#smiles h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    color: white;
+}
+#smiles a{
+    color: blueviolet;
+    margin-right: 5px;
+}
+.smile-winners{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: content-box;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 80px;
+}
+.smile-winners .pros{
+    color: white;
+    align-self: auto;    
+}
+/*end of header and banner section*/
+
+/*quotes section*/
+
+.quotes{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;  
+}
+.quotes #weather-presenter{
+    box-sizing: content-box;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.block-quote{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+#the-quote{
+    align-self: center;
+    margin-top: 60px;
+    margin-bottom: -20px;
+}
+#quote-author{
+    margin-top: -10px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+#quote-author p{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
