@@ -14,7 +14,7 @@ body{
   /*Header and Banner section*/
  .header{
     position: absolute;
-    margin-top: 10px;
+    padding-top: 20px;
     display: flex;
     justify-content: space-around;
     box-sizing: border-box;
@@ -24,11 +24,12 @@ body{
     margin-left: 150px;
     margin-right: 650px;
  }
- a:link{
+ a:link,a:hover{
     color: white;
     text-decoration: none;
     margin:10px;
  }
+
  .header #navigation-links{
     flex-direction: column;
     justify-content: space-around;
@@ -169,3 +170,95 @@ body{
     border-radius: 5px;
 }
 /*end of videos section*/
+
+/*Free membership*/
+.membership{
+    background-color: rgb(7, 7, 40);
+    height: auto;
+}
+#free-membership h1{
+    color:white;
+    margin-top: 50px;
+}
+#free-membership a{
+    color: blueviolet;
+}
+#free-membership{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.main-member{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#mem-part{
+    box-sizing: border-box;
+    margin:20px;
+}
+.register{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+/*end of free memberdhip section>
+
+/*FAQ section*/
+#FAQ{
+    background-color: white;
+    color:black;
+}
+.faq{
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px;
+}
+.rows{
+    column-count: 2;
+    column-gap: 0px;
+    column-width: auto;
+}
+#row-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#row-block p{
+    color: gray;
+}
+/*end of FAQ section*/
+
+/*Footer*/
+.F-footer{
+    background-color:rgb(7, 7, 40); 
+    height: auto;
+}
+#footer-section{
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+}
+.logo{
+    justify-content: left;
+    margin-right: 650px;
+    margin-left: 100px;
+}
+.socials{
+    justify-content: right;
+}
+.copyright{
+    color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+/*end of footer*/
+
