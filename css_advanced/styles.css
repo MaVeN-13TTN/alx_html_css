@@ -24,7 +24,7 @@ body{
     margin-left: 150px;
     margin-right: 650px;
  }
- a:link,a:hover{
+ a:link,a:visited{
     color: white;
     text-decoration: none;
     margin:10px;
