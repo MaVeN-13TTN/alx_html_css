@@ -196,7 +196,10 @@ body{
 #mem-part{
     box-sizing: border-box;
     margin:20px;
+    color: white;
+    align-items: center;
 }
+
 .register{
     display: flex;
     flex-direction: row;
