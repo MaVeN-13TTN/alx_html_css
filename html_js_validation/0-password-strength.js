@@ -21,7 +21,6 @@ document.getElementById('passwordForm').addEventListener('submit', function(even
             x.textContent = p
             errorElement.appendChild(x)
         })
-        // errorElement.textContent = errors.join('\n');
     }
 });
 
